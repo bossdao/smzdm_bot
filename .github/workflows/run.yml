@@ -32,7 +32,7 @@ jobs:
         env:
           SMZDM_COOKIE: ${{ secrets.SMZDM_COOKIE }}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
-          SC_KEY: ${{ secrets.SC_KEY }}
+          SC_KEY: ${{ SCT73112Tc8gBUDj5Q4JGZ7TaeQ3Bgsb6 }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
         run: python main.py
